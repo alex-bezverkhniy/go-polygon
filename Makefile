@@ -26,3 +26,10 @@ test-hello:
 
 test-text-tempale:
 	go test -timeout 30s -v github.com/alex-bezverkhniy/go-polygon/template
+
+
+get-yaml:
+	go get gopkg.in/yaml.v2
+
+test-yaml:
+	go test -timeout 30s -v github.com/alex-bezverkhniy/go-polygon/yaml	
