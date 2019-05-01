@@ -10,7 +10,7 @@ fmt:
 	go fmt ./...
 
 image:
-	docker build -t alex-bezverkhniy/go-polygon .
+	docker build -t alex-bezverkhniy/go-polygon ./docker
 
 release:
 	git tag -a $(VERSION) -m "Release" || true
